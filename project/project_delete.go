@@ -3,8 +3,8 @@ package project
 import (
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/project/options"
+	"github.com/Click2Cloud/libcompose/project/events"
+	"github.com/Click2Cloud/libcompose/project/options"
 )
 
 // Delete removes the specified services (like docker rm).

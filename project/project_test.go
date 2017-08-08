@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/project/options"
-	"github.com/docker/libcompose/yaml"
+	"github.com/Click2Cloud/libcompose/config"
+	"github.com/Click2Cloud/libcompose/project/options"
+	"github.com/Click2Cloud/libcompose/yaml"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,8 +9,9 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/client"
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/yaml"
+	"github.com/Click2Cloud/libcompose/config"
+	"github.com/Click2Cloud/libcompose/test"
+	"github.com/Click2Cloud/libcompose/yaml"
 	"github.com/pkg/errors"
 )
 
