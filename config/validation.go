@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/libcompose/utils"
+	"github.com/Click2Cloud/libcompose/utils"
 	"github.com/xeipuuv/gojsonschema"
 )
 

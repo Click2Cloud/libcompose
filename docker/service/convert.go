@@ -10,11 +10,11 @@ import (
 	"github.com/docker/docker/runconfig/opts"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/go-units"
-	"github.com/docker/libcompose/config"
-	composeclient "github.com/docker/libcompose/docker/client"
-	composecontainer "github.com/docker/libcompose/docker/container"
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/utils"
+	"github.com/Click2Cloud /libcompose/config"
+	composeclient "github.com/Click2Cloud/libcompose/docker/client"
+	composecontainer "github.com/Click2Cloud/libcompose/docker/container"
+	"github.com/Click2Cloud/libcompose/project"
+	"github.com/Click2Cloud/libcompose/utils"
 	"golang.org/x/net/context"
 )
 

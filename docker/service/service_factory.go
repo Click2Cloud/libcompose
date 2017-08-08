@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/docker/ctx"
-	"github.com/docker/libcompose/project"
+	"github.com/Click2Cloud/libcompose/config"
+	"github.com/Click2Cloud/libcompose/docker/ctx"
+	"github.com/Click2Cloud/libcompose/project"
 )
 
 // Factory is an implementation of project.ServiceFactory.

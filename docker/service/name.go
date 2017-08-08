@@ -9,7 +9,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/client"
-	"github.com/docker/libcompose/labels"
+	"github.com/Click2Cloud/libcompose/labels"
 )
 
 const format = "%s_%s_%d"

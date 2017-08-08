@@ -14,9 +14,9 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	lclient "github.com/docker/libcompose/docker/client"
-	"github.com/docker/libcompose/docker/container"
-	"github.com/docker/libcompose/labels"
+	lclient "github.com/Click2Cloud/libcompose/docker/client"
+	"github.com/Click2Cloud/libcompose/docker/container"
+	"github.com/Click2Cloud/libcompose/labels"
 
 	. "gopkg.in/check.v1"
 )
