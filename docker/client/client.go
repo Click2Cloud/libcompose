@@ -71,7 +71,7 @@ func Create(c Options) (client.APIClient, error) {
  		c.TLSCertFile = filepath.Join(dockerCertPath, defaultCertFile)
 	}
 	if c.TLSKeyFile == "" {
- +		c.TLSKeyFile = filepath.Join(dockerCertPath, defaultKeyFile)
+ 		c.TLSKeyFile = filepath.Join(dockerCertPath, defaultKeyFile)
 	}
 	if c.TrustKey == "" {
 		c.TrustKey = filepath.Join(homedir.Get(), ".docker", defaultTrustKeyFile)
